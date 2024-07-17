@@ -1,0 +1,22 @@
+:root,
+[data-theme='dark'] {
+	--primary-color: #242424;
+	--secondary-color: #101010;
+	--accent-color: orange;
+
+	--text-color: lightgray;
+	--text-accent-color: orange;
+	--button-bg-color: gray;
+	--button-active-bg-color: #101010;
+}
+
+[data-theme='light'] {
+	--primary-color: darkorange;
+	--secondary-color: white;
+	--accent-color: black;
+
+	--text-color: black;
+	--text-accent-color: orange;
+	--button-bg-color: lightgray;
+	--button-active-bg-color: gray;
+}

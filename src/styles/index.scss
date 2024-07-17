@@ -1,0 +1,60 @@
+@import './themes';
+@import 'Paginator.scss';
+
+:root {
+	font-family: 'Rollbox-Bold', 'Conthrax', sans-serif;
+
+	color-scheme: dark light;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	color: var(--text-color, gray);
+	font-size: 22px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+picture {
+	margin: 0;
+	padding: 0;
+}
+
+button,
+a {
+	color: var(--text-color, gray);
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	cursor: pointer;
+}
+
+button {
+	padding: 0;
+}

@@ -1,0 +1,15 @@
+.paginator {
+	display: flex;
+	gap: 15px;
+
+	& .selected a {
+		pointer-events: none;
+		text-decoration: underline;
+		color: var(--text-accent-color, gray);
+	}
+
+	& .disabled a {
+		pointer-events: none;
+		color: gray;
+	}
+}
